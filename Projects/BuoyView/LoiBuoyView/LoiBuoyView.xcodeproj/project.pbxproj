@@ -15,6 +15,8 @@
 		A05056F41C28F552000EDD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05056F21C28F552000EDD5E /* LaunchScreen.storyboard */; };
 		A05056FF1C28F552000EDD5E /* LoiBuoyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05056FE1C28F552000EDD5E /* LoiBuoyViewTests.m */; };
 		A050570A1C28F552000EDD5E /* LoiBuoyViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05057091C28F552000EDD5E /* LoiBuoyViewUITests.m */; };
+		A050571A1C28F845000EDD5E /* TRBuoyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A05057191C28F845000EDD5E /* TRBuoyView.m */; };
+		A050571D1C28F88D000EDD5E /* TRBuoyViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A050571C1C28F88D000EDD5E /* TRBuoyViewItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A05057051C28F552000EDD5E /* LoiBuoyViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoiBuoyViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05057091C28F552000EDD5E /* LoiBuoyViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoiBuoyViewUITests.m; sourceTree = "<group>"; };
 		A050570B1C28F552000EDD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05057181C28F845000EDD5E /* TRBuoyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRBuoyView.h; sourceTree = "<group>"; };
+		A05057191C28F845000EDD5E /* TRBuoyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRBuoyView.m; sourceTree = "<group>"; };
+		A050571B1C28F88D000EDD5E /* TRBuoyViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRBuoyViewItem.h; sourceTree = "<group>"; };
+		A050571C1C28F88D000EDD5E /* TRBuoyViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRBuoyViewItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		A05056E31C28F552000EDD5E /* LoiBuoyView */ = {
 			isa = PBXGroup;
 			children = (
+				A05057171C28F7F2000EDD5E /* BuoyView */,
 				A05056E71C28F552000EDD5E /* AppDelegate.h */,
 				A05056E81C28F552000EDD5E /* AppDelegate.m */,
 				A05056EA1C28F552000EDD5E /* ViewController.h */,
@@ -138,6 +145,17 @@
 				A050570B1C28F552000EDD5E /* Info.plist */,
 			);
 			path = LoiBuoyViewUITests;
+			sourceTree = "<group>";
+		};
+		A05057171C28F7F2000EDD5E /* BuoyView */ = {
+			isa = PBXGroup;
+			children = (
+				A05057181C28F845000EDD5E /* TRBuoyView.h */,
+				A05057191C28F845000EDD5E /* TRBuoyView.m */,
+				A050571B1C28F88D000EDD5E /* TRBuoyViewItem.h */,
+				A050571C1C28F88D000EDD5E /* TRBuoyViewItem.m */,
+			);
+			path = BuoyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 				A05056EC1C28F552000EDD5E /* ViewController.m in Sources */,
 				A05056E91C28F552000EDD5E /* AppDelegate.m in Sources */,
 				A05056E61C28F552000EDD5E /* main.m in Sources */,
+				A050571A1C28F845000EDD5E /* TRBuoyView.m in Sources */,
+				A050571D1C28F88D000EDD5E /* TRBuoyViewItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
