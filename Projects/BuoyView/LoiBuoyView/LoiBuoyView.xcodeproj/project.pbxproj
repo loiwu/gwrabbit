@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05056E61C28F552000EDD5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A05056E51C28F552000EDD5E /* main.m */; };
+		A05056E91C28F552000EDD5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05056E81C28F552000EDD5E /* AppDelegate.m */; };
+		A05056EC1C28F552000EDD5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05056EB1C28F552000EDD5E /* ViewController.m */; };
+		A05056EF1C28F552000EDD5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05056ED1C28F552000EDD5E /* Main.storyboard */; };
+		A05056F11C28F552000EDD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05056F01C28F552000EDD5E /* Assets.xcassets */; };
+		A05056F41C28F552000EDD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05056F21C28F552000EDD5E /* LaunchScreen.storyboard */; };
+		A05056FF1C28F552000EDD5E /* LoiBuoyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05056FE1C28F552000EDD5E /* LoiBuoyViewTests.m */; };
+		A050570A1C28F552000EDD5E /* LoiBuoyViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05057091C28F552000EDD5E /* LoiBuoyViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05056FB1C28F552000EDD5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05056D91C28F552000EDD5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05056E01C28F552000EDD5E;
+			remoteInfo = LoiBuoyView;
+		};
+		A05057061C28F552000EDD5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05056D91C28F552000EDD5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05056E01C28F552000EDD5E;
+			remoteInfo = LoiBuoyView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A05056E11C28F552000EDD5E /* LoiBuoyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoiBuoyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05056E51C28F552000EDD5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A05056E71C28F552000EDD5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A05056E81C28F552000EDD5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A05056EA1C28F552000EDD5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A05056EB1C28F552000EDD5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A05056EE1C28F552000EDD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A05056F01C28F552000EDD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A05056F31C28F552000EDD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A05056F51C28F552000EDD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05056FA1C28F552000EDD5E /* LoiBuoyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoiBuoyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05056FE1C28F552000EDD5E /* LoiBuoyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoiBuoyViewTests.m; sourceTree = "<group>"; };
+		A05057001C28F552000EDD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05057051C28F552000EDD5E /* LoiBuoyViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoiBuoyViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05057091C28F552000EDD5E /* LoiBuoyViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoiBuoyViewUITests.m; sourceTree = "<group>"; };
+		A050570B1C28F552000EDD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05056DE1C28F552000EDD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05056F71C28F552000EDD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05057021C28F552000EDD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A05056D81C28F552000EDD5E = {
+			isa = PBXGroup;
+			children = (
+				A05056E31C28F552000EDD5E /* LoiBuoyView */,
+				A05056FD1C28F552000EDD5E /* LoiBuoyViewTests */,
+				A05057081C28F552000EDD5E /* LoiBuoyViewUITests */,
+				A05056E21C28F552000EDD5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A05056E21C28F552000EDD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A05056E11C28F552000EDD5E /* LoiBuoyView.app */,
+				A05056FA1C28F552000EDD5E /* LoiBuoyViewTests.xctest */,
+				A05057051C28F552000EDD5E /* LoiBuoyViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A05056E31C28F552000EDD5E /* LoiBuoyView */ = {
+			isa = PBXGroup;
+			children = (
+				A05056E71C28F552000EDD5E /* AppDelegate.h */,
+				A05056E81C28F552000EDD5E /* AppDelegate.m */,
+				A05056EA1C28F552000EDD5E /* ViewController.h */,
+				A05056EB1C28F552000EDD5E /* ViewController.m */,
+				A05056ED1C28F552000EDD5E /* Main.storyboard */,
+				A05056F01C28F552000EDD5E /* Assets.xcassets */,
+				A05056F21C28F552000EDD5E /* LaunchScreen.storyboard */,
+				A05056F51C28F552000EDD5E /* Info.plist */,
+				A05056E41C28F552000EDD5E /* Supporting Files */,
+			);
+			path = LoiBuoyView;
+			sourceTree = "<group>";
+		};
+		A05056E41C28F552000EDD5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05056E51C28F552000EDD5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A05056FD1C28F552000EDD5E /* LoiBuoyViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A05056FE1C28F552000EDD5E /* LoiBuoyViewTests.m */,
+				A05057001C28F552000EDD5E /* Info.plist */,
+			);
+			path = LoiBuoyViewTests;
+			sourceTree = "<group>";
+		};
+		A05057081C28F552000EDD5E /* LoiBuoyViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A05057091C28F552000EDD5E /* LoiBuoyViewUITests.m */,
+				A050570B1C28F552000EDD5E /* Info.plist */,
+			);
+			path = LoiBuoyViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05056E01C28F552000EDD5E /* LoiBuoyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A050570E1C28F552000EDD5E /* Build configuration list for PBXNativeTarget "LoiBuoyView" */;
+			buildPhases = (
+				A05056DD1C28F552000EDD5E /* Sources */,
+				A05056DE1C28F552000EDD5E /* Frameworks */,
+				A05056DF1C28F552000EDD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoiBuoyView;
+			productName = LoiBuoyView;
+			productReference = A05056E11C28F552000EDD5E /* LoiBuoyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A05056F91C28F552000EDD5E /* LoiBuoyViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05057111C28F552000EDD5E /* Build configuration list for PBXNativeTarget "LoiBuoyViewTests" */;
+			buildPhases = (
+				A05056F61C28F552000EDD5E /* Sources */,
+				A05056F71C28F552000EDD5E /* Frameworks */,
+				A05056F81C28F552000EDD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05056FC1C28F552000EDD5E /* PBXTargetDependency */,
+			);
+			name = LoiBuoyViewTests;
+			productName = LoiBuoyViewTests;
+			productReference = A05056FA1C28F552000EDD5E /* LoiBuoyViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A05057041C28F552000EDD5E /* LoiBuoyViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05057141C28F552000EDD5E /* Build configuration list for PBXNativeTarget "LoiBuoyViewUITests" */;
+			buildPhases = (
+				A05057011C28F552000EDD5E /* Sources */,
+				A05057021C28F552000EDD5E /* Frameworks */,
+				A05057031C28F552000EDD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05057071C28F552000EDD5E /* PBXTargetDependency */,
+			);
+			name = LoiBuoyViewUITests;
+			productName = LoiBuoyViewUITests;
+			productReference = A05057051C28F552000EDD5E /* LoiBuoyViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05056D91C28F552000EDD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Loi Wu";
+				TargetAttributes = {
+					A05056E01C28F552000EDD5E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A05056F91C28F552000EDD5E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A05056E01C28F552000EDD5E;
+					};
+					A05057041C28F552000EDD5E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A05056E01C28F552000EDD5E;
+					};
+				};
+			};
+			buildConfigurationList = A05056DC1C28F552000EDD5E /* Build configuration list for PBXProject "LoiBuoyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A05056D81C28F552000EDD5E;
+			productRefGroup = A05056E21C28F552000EDD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05056E01C28F552000EDD5E /* LoiBuoyView */,
+				A05056F91C28F552000EDD5E /* LoiBuoyViewTests */,
+				A05057041C28F552000EDD5E /* LoiBuoyViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A05056DF1C28F552000EDD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05056F41C28F552000EDD5E /* LaunchScreen.storyboard in Resources */,
+				A05056F11C28F552000EDD5E /* Assets.xcassets in Resources */,
+				A05056EF1C28F552000EDD5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05056F81C28F552000EDD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05057031C28F552000EDD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05056DD1C28F552000EDD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05056EC1C28F552000EDD5E /* ViewController.m in Sources */,
+				A05056E91C28F552000EDD5E /* AppDelegate.m in Sources */,
+				A05056E61C28F552000EDD5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05056F61C28F552000EDD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05056FF1C28F552000EDD5E /* LoiBuoyViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05057011C28F552000EDD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A050570A1C28F552000EDD5E /* LoiBuoyViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05056FC1C28F552000EDD5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05056E01C28F552000EDD5E /* LoiBuoyView */;
+			targetProxy = A05056FB1C28F552000EDD5E /* PBXContainerItemProxy */;
+		};
+		A05057071C28F552000EDD5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05056E01C28F552000EDD5E /* LoiBuoyView */;
+			targetProxy = A05057061C28F552000EDD5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A05056ED1C28F552000EDD5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05056EE1C28F552000EDD5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A05056F21C28F552000EDD5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05056F31C28F552000EDD5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A050570C1C28F552000EDD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A050570D1C28F552000EDD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A050570F1C28F552000EDD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoiBuoyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loi.justek.LoiBuoyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A05057101C28F552000EDD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoiBuoyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loi.justek.LoiBuoyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A05057121C28F552000EDD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoiBuoyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loi.justek.LoiBuoyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoiBuoyView.app/LoiBuoyView";
+			};
+			name = Debug;
+		};
+		A05057131C28F552000EDD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoiBuoyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loi.justek.LoiBuoyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoiBuoyView.app/LoiBuoyView";
+			};
+			name = Release;
+		};
+		A05057151C28F552000EDD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoiBuoyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loi.justek.LoiBuoyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoiBuoyView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A05057161C28F552000EDD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoiBuoyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = loi.justek.LoiBuoyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoiBuoyView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05056DC1C28F552000EDD5E /* Build configuration list for PBXProject "LoiBuoyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A050570C1C28F552000EDD5E /* Debug */,
+				A050570D1C28F552000EDD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A050570E1C28F552000EDD5E /* Build configuration list for PBXNativeTarget "LoiBuoyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A050570F1C28F552000EDD5E /* Debug */,
+				A05057101C28F552000EDD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A05057111C28F552000EDD5E /* Build configuration list for PBXNativeTarget "LoiBuoyViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05057121C28F552000EDD5E /* Debug */,
+				A05057131C28F552000EDD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A05057141C28F552000EDD5E /* Build configuration list for PBXNativeTarget "LoiBuoyViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05057151C28F552000EDD5E /* Debug */,
+				A05057161C28F552000EDD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05056D91C28F552000EDD5E /* Project object */;
+}
